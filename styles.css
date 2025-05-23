@@ -426,8 +426,8 @@ footer {
   }
 
   .hero {
-    height: 75vh; /* Adjust height for mobile */
-    min-height: 350px;
+    height: 50vh; /* Adjust height for mobile */
+    min-height: 420px;
   }
 
   .hero-title {
