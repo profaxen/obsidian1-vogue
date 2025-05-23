@@ -18,6 +18,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  height: 13%;
   background-color: rgba(245, 245, 220, 0.95);
   backdrop-filter: blur(10px);
   z-index: 1000;
@@ -33,6 +34,7 @@ body {
   justify-content: space-between;
   padding: 0 20px;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .logo-container {
@@ -43,7 +45,7 @@ body {
 }
 
 .logo {
-  width: 50px;
+  width: 52px;
   height: auto;
   margin-right: 10px;
 }
@@ -96,11 +98,17 @@ body {
   width: 100%;
 }
 
+/* Force hamburger to top-right */
 .hamburger {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
   display: none;
   flex-direction: column;
   cursor: pointer;
 }
+
 
 .hamburger span {
   width: 25px;
@@ -399,7 +407,7 @@ footer {
   }
 
   .brand-name {
-    font-size: 20px;
+    font-size: 27px;
   }
 
   .nav-links {
